@@ -4,8 +4,8 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 
 # Sabit API anahtarı ve video ID
-API_KEY = "AIzaSyDtNEeHurTqas9Ka49Ip6tlICUdse2TfBw"
-VIDEO_ID = "bmxM1ypnI0Q"  # Otomatik olarak doldurulacak video ID
+API_KEY = ""  # Kendi aldığınınz API KEY
+VIDEO_ID = ""  # Youtubedaki video ID'si olarak doldurulacak video ID
 
 def yorumlari_cek(video_id):
     try:
